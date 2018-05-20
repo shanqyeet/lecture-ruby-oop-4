@@ -36,6 +36,7 @@ class PoliticianWife
      "accepts 284 luxury bags"
   end 
 end 
+```
 ---
 RECAP 
 1. Encapsulation
