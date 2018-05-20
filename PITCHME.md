@@ -24,6 +24,7 @@ Customer > ATM > Bank
 ### This is also Duck Typing
 ![Duck Typing 2](https://devopedia.org/images/article/24/2998.1514520209.jpg)
 +++
+### Example Code
 ```ruby
 class Politician 
   def accept_bribe
@@ -36,6 +37,10 @@ class PoliticianWife
      "accepts 284 luxury bags"
   end 
 end 
+jibby = Politician.new
+Rosy = PoliticianWife.new
+jail = [jibby, rosy]
+jail.each {|x| x.accept_bribe }
 ```
 ---
 RECAP 
